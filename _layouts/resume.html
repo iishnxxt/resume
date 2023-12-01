@@ -135,24 +135,24 @@
       <!-- end Skills -->
       {% endif %}
 
-      {% if site.resume_section_courses %}
-      <!-- begin Courses -->
+      {% if site.resume_section_recognition %}
+      <!-- begin Recognition -->
       <section class="content-section">
 
         <header class="section-header">
-          <h2>Courses</h2>
+          <h2>Recognition</h2>
         </header>
 
-        {% for Courses in site.data.Courses %}
+        {% for recognition in site.data.recognitions %}
         <div class="resume-item">
-          <h3 class="resume-item-title" itemprop="award">{{ Courses.award }}</h3>
-          <h4 class="resume-item-details">{{ CCourses.organization }} &bull; {{ Courses.year }}</h4>
-          <p class="resume-item-copy">{{ Courses.summary }}</p>
+          <h3 class="resume-item-title" itemprop="award">{{ recognition.award }}</h3>
+          <h4 class="resume-item-details">{{ recognition.organization }} &bull; {{ recognition.year }}</h4>
+          <p class="resume-item-copy">{{ recognition.summary }}</p>
         </div>
         {% endfor %}
 
       </section>
-      <!-- end Courses -->
+      <!-- end Recognition -->
       {% endif %}
 
       {% if site.resume_section_associations %}
@@ -230,6 +230,8 @@
       </section>
       <!-- end Print Social Links -->
       {% endif %}
+
+
 
     </div>
 
