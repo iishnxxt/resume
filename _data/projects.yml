@@ -2,15 +2,31 @@
 # uncomment the urls if you wish to display them, and add your own URL
 
 # jazznotes.io
-- project: jazznotes.io
-  role: Founder & Primary Developer
-  duration: 2012 &mdash; Present
+- project: AI VOICE ASSISTANT
+  role: Individual Project
+  duration: June 2021 &mdash; August 2021
   # url: "#"
-  description: Jazz Notes is an open source node/ember app that helps you keep track of your music compositions and new ideas.
+  description: AI voice assistant with Python involves combining various libraries, tools, and APIs to handle speech recognition, and text-to-speech synthesis.
 
 # Springfield Community Outreach Group
-- project: Springfield Community Outreach Group
-  role: Co-Founder & Organizer
-  duration: 2007 &mdash; Present
+- project: QUIZ ANDROID APPLICATION
+  role: Individual project
+  duration: July 2022 &mdash; September 2022
   # url: "#"
-  description: SCOG is a local monthly meetup in Springfield where we share opportunities to volunteer in the community and organize support for families and neighborhoods in need of assistance that the community can provide.
+  description: This app is an engaging and user-friendly Android application designed to provide a fun and educational experience for users of all ages.
+ 
+- project: SPEECH RECOGNITION THROUGH EMOTIONS
+  role: Individual Project 
+  duration: December 2022 &mdash; january 2023
+  description: This project is created to identify and get the feelings from multiple files involving sound that comprises the human speech.
+               Python's SoundFile, Librosa, NumPy, Scikit-learn, and PyAudio packages are used.
+
+- project: COLLEGE ANDROID APPLICATION
+  role: Team Project
+  duration: February 2023 &mdash; May 2023
+  description: Led a team of 4 android enthusiasts for developing an Android application for the college, combining all the essential work for the students in one place.
+
+- project: GESTURE CONTROL USING ARDUINO 
+  role: Team Project
+  duration: August 2023 &mdash; November 2023
+  description: Led a team of 4 members to develop a gesture control using Arduino, using capabilities of an Arduino microcontroller to create intelligent systems that can process and interpret visual information from the physical world.
