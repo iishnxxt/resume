@@ -10,14 +10,14 @@
 
 # Springfield Community Outreach Group
 - project: QUIZ ANDROID APPLICATION
-  role: Individual project
+  role: Individual Project
   duration: July 2022 &mdash; September 2022
   # url: "#"
   description: This app is an engaging and user-friendly Android application designed to provide a fun and educational experience for users of all ages.
  
 - project: SPEECH RECOGNITION THROUGH EMOTIONS
   role: Individual Project 
-  duration: December 2022 &mdash; january 2023
+  duration: December 2022 &mdash; January 2023
   description: This project is created to identify and get the feelings from multiple files involving sound that comprises the human speech.
                Python's SoundFile, Librosa, NumPy, Scikit-learn, and PyAudio packages are used.
 
