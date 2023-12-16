@@ -8,6 +8,7 @@
     <div class="wrapper" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="telephone" content="{{ site.resume_contact_telephone }}"/>
       <meta itemprop="address" content="{{ site.resume_contact_address }}"/>
+      <link rel="stylesheet" href="Style.css">
 
       <header class="page-header">
 
@@ -163,19 +164,11 @@
           <a href="https://bard.google.com/chat">
             <img src="images/avatar.jpg" alt="Certificate" itemprop="image" width="30%" height="35%" >
           </a>
-            <img src="images/avatar.jpg" alt="Certificate" itemprop="image" style="width: 200px; height: 200px; transition: transform 0.3s ease;">
-            <script>
-              // JavaScript to add hover effect
-              const img = document.querySelector('img');
-              img.addEventListener('mouseover', () => {
-                img.style.transform = 'scale(1.1)';
-              });
-          
-              img.addEventListener('mouseout', () => {
-                img.style.transform = 'scale(1)';
-              });
-            </script>
-            <div>
+          <div class = "image">
+            <img src="images/avatar.jpg" alt="Certificate" itemprop="image" width="20%" height="20%" display="">
+            <div class="content"><h1>My photo</h1></div></div>
+
+          <div>
               <img src="images/avatar.jpg" alt="Certificate" itemprop="image" width="20%" height="20%" display="">
             </div>
 
