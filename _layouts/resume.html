@@ -161,9 +161,20 @@
       
           <div class="gallery">
           <a href="https://bard.google.com/chat">
-            <img src="images/avatar.jpg" alt="Certificate" itemprop="image" width="30%" height="35%">
+            <img src="images/avatar.jpg" alt="Certificate" itemprop="image" width="30%" height="35%" >
           </a>
-            <img src="images/avatar.jpg" alt="Certificate" itemprop="image" width="20%" height="20%" display="">
+            <img src="images/avatar.jpg" alt="Certificate" itemprop="image" style="width: 200px; height: 200px; transition: transform 0.3s ease;">>
+            <script>
+              // JavaScript to add hover effect
+              const img = document.querySelector('img');
+              img.addEventListener('mouseover', () => {
+                img.style.transform = 'scale(1.1)';
+              });
+          
+              img.addEventListener('mouseout', () => {
+                img.style.transform = 'scale(1)';
+              });
+            </script>
             <div>
               <img src="images/avatar.jpg" alt="Certificate" itemprop="image" width="20%" height="20%" display="">
             </div>
